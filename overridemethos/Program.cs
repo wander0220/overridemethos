@@ -45,6 +45,8 @@ namespace overridemethos
         
         static void Main(string[] args)
         {
+            math math = new math();
+            Console.WriteLine(math.Power(2, 3));
         }
     }
 }
