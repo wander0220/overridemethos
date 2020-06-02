@@ -19,6 +19,7 @@ namespace overridemethos
                 int result=0;
                 for(int i = 0; i < count; i++)
                 {
+                    result = result * input;
                 }
                 return result;
             }
